@@ -81,7 +81,7 @@ class note_form extends \moodleform {
                     <div class="mod_board_attachment_button link_button fa fa-link" role="button" tabindex="0"></div>
                     <div class="mod_board_attachment_button image_button fa fa-picture-o" role="button" tabindex="0"></div>';
         if ($config->allowyoutube) {
-            $html .= '<div class="mod_board_attachment_button youtube_button fa fa-youtube" role="button" tabindex="0"></div>';
+            $html .= '<div class="mod_board_attachment_button youtube_button fa-brands fa-youtube" role="button" tabindex="0"></div>';
         }
         $html .= '</div>';
 
